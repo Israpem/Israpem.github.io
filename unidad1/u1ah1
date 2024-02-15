@@ -1,1 +1,18 @@
-
+<!--
+    Unidad: Parcial No. 1
+    Descripción: Elementos de contenido
+    Fecha: 06 de febrero de 2024
+-->
+<!DOCTYPE html>
+<html>
+    <!-- Etiqueta de encabezado -->
+    <head>
+        <!-- Etiqueta de título -->
+        <title>UPSLP - Programaci&oacute;n Web I</title>
+    </head>
+    <!-- Etiqueta de cuerpo/contenido -->
+    <body>
+        <!-- Etiqueta de título/encabezado de una sección -->
+        Comenzando con el curso de n&uacute;cleo optativo I
+    </body>
+</html>
