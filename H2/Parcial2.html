@@ -1,0 +1,225 @@
+<!--
+    Unidad: Parcial No. 2
+    Descripcion: Examen Practico Parcial 2
+    Fecha: 5 de Abril de 2024
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UPSLP - Programaci&oacute;n Web I</title>
+    </head>
+
+    <body>
+        <h1>Speaker submission</h1>
+        <fieldset>
+            <p style="text-align: center">Want to speak at our fake conference? Fill out this form.</p>
+        </fieldset>
+
+        <form class="form-horizontal">
+            <fieldset>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Name">Name</label>  
+              <input id="Name" name="Name" type="text" placeholder="" class="form-control input-md">
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Email">Email</label>  
+              <input id="Email" name="Email" type="text" placeholder="you@example.com" class="form-control input-md">
+            </div>
+            
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="ToTalk">Type of talk</label>
+                <label class="radio-inline" for="ToTalk-0">
+                  <input type="radio" name="ToTalk" id="ToTalk-0" value="1" checked="checked">
+                  Main Stage
+                </label> 
+                <label class="radio-inline" for="ToTalk-1">
+                  <input type="radio" name="ToTalk" id="ToTalk-1" value="2">
+                  Workshop
+                </label>
+            </div>
+            
+            <!-- Select Basic -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="selectbasic">T-Shirt Size</label>
+                <select id="selectbasic" name="selectbasic" class="form-control">
+                  <option value="1">Extra Small</option>
+                  <option value="2">Extra Large</option>
+                  <option value="3">Medium</option>
+                </select>
+            </div>
+            
+            <!-- Textarea -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Abstract">Abstract</label>                    
+                <textarea class="form-control" id="Abstract" name="Abstract"></textarea>
+                <br>
+                <span class="help-block">Describe your talk in 500 words or less.</span>
+                
+            </div>
+            
+            <!-- Multiple Checkboxes (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Talk"></label>
+              <div class="col-md-4">
+                <label class="checkbox-inline" for="Talk-0">
+                  <input type="checkbox" name="Talk" id="Talk-0" value="1">
+                  I'm actually avilable the date of the talk
+                </label>
+              </div>
+            </div>
+            
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="Submitt"></label>
+              <div class="col-md-4">
+                <button id="Submitt" name="Submitt" class="btn btn-primary">Submitt</button>
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>
+
+            <table border="1">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th colspan="24">Tri&aacute;ngulo de Pascal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>3</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>4</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>5</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>6</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  
+                  <tr>
+                    <th>7</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>8</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>9</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color: red;" colspan="2">1</td>
+                    <td style="background-color: rgb(212, 248, 10);" colspan="2">8</td>
+                    <td style="background-color: rgb(167, 194, 12);" colspan="2">28</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">56</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">70</td>
+                    <td style="background-color: rgb(1, 138, 30);" colspan="2">56</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">23</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">8</td>
+                    <td style="background-color: red;" colspan="2">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>10</th>
+                    <td></td>
+                    <td></td>
+                    <td style="background-color: red;" colspan="2">1</td>
+                    <td style="background-color: rgb(212, 248, 10);" colspan="2">9</td>
+                    <td style="background-color: rgb(167, 194, 12);" colspan="2">36</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">84</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">126</td>
+                    <td style="background-color: rgb(1, 138, 30);" colspan="2">126</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">84</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">36</td>
+                    <td style="background-color: rgb(167, 194, 12);" colspan="2">9</td>
+                    <td style="background-color: red;" colspan="2">1</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>11</th>
+                    <td></td>
+                    <td style="background-color: red;" colspan="2">1</td>
+                    <td style="background-color: rgb(212, 248, 10);" colspan="2">10</td>
+                    <td style="background-color: rgb(167, 194, 12);" colspan="2">45</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">120</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">210</td>
+                    <td style="background-color: rgb(1, 138, 30);" colspan="2">252</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">210</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">120</td>
+                    <td style="background-color: rgb(167, 194, 12);" colspan="2">45</td>
+                    <td style="background-color: rgb(212, 248, 10);" colspan="2">10</td>
+                    <td style="background-color: red;" colspan="2">1</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th>12</th>
+                    <td style="background-color: red;" colspan="2">1</td>
+                    <td style="background-color: rgb(212, 248, 10);" colspan="2">11</td>
+                    <td style="background-color: rgb(167, 194, 12);" colspan="2">55</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">165</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">300</td>
+                    <td style="background-color: rgb(1, 138, 30);" colspan="2">462</td>
+                    <td style="background-color: rgb(1, 138, 30);" colspan="2">462</td>
+                    <td style="background-color: rgb(57, 146, 76);" colspan="2">300</td>
+                    <td style="background-color: rgb(124, 158, 92);" colspan="2">165</td>
+                    <td style="background-color: rgb(167, 194, 12);" colspan="2">55</td>
+                    <td style="background-color: rgb(212, 248, 10);" colspan="2">11</td>
+                    <td style="background-color: red;" colspan="2">1</td>
+                  </tr>
+
+                </tbody>
+            </table>
+        </table>
+    </body>
+</html>
